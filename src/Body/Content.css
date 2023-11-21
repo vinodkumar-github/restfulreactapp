@@ -1,0 +1,44 @@
+
+.Contentlist {
+    display:flex;
+    
+    align-items: center;
+  
+
+}
+.ulists{
+    list-style-type: none;
+}
+.Contentlistcheckbox{
+    
+    accent-color: rgb(53, 130, 255);
+        border: 2px solid #333; 
+        border-radius: 0; 
+       margin: 10px;
+        transform: scale(2);
+        cursor:pointer; 
+    
+}
+
+.Contentlisttitle{
+   
+    margin: 10px;
+   width: 150px
+    
+}
+.Contentlistbutton {
+    border: 2px solid #333; 
+    background-color: rgb(255, 255, 255);
+   padding: 5px;
+  margin: 10px;
+  margin-left: 30px;
+   border-radius: 0%;
+}
+
+.Contentlistbutton:hover{
+    background-color: red;
+    color: white;
+    cursor:pointer; 
+    
+    
+}

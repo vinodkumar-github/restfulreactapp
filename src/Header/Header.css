@@ -1,0 +1,15 @@
+.Header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    background-color: royalblue;
+}
+.Headerh1 {
+    font-size:xx-large;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    
+    min-width: 250px;
+}

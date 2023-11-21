@@ -1,0 +1,44 @@
+.Nav {
+    list-style: none;
+    height: 40px;
+   
+   
+    display: flex;
+
+    justify-content: center;
+    
+
+  }
+  
+  .Homeli,
+  .Aboutli,
+  .Contactli {
+   
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 20px;
+ 
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .Homelia,
+  .Aboutlia,
+  .Contactlia {
+  
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+    
+    font-weight: bold;
+ 
+  }
+  
+  .Homelia:hover,
+  .Aboutlia:hover,
+  .Contactlia:hover {
+    color: #555;
+  
+  }
+  

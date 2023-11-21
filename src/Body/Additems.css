@@ -1,0 +1,32 @@
+/* Additems.css */
+.Additems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .ItemInput {
+    font-size: medium;
+    height:30px;
+    border: 2px solid #333;
+    border-radius: 0;
+    width: 170px
+  }
+  
+  .SubmitButton {
+    background-color: white;
+    font-size: large;
+    height:35px;
+    width:30px;
+    border: 2px solid #333;
+    border-radius: 0;
+    margin-left: 20px; /* Adjust the margin between input and button */
+    cursor:pointer;
+  }
+  
+  .SubmitButton:hover {
+    background-color: dodgerblue;
+    color: white;
+
+  }
