@@ -24,11 +24,7 @@ useEffect(() => {
     }
   };
 
-  const fetchItemsWithDelay = setTimeout(async () => {
-    await fetchItems();
-  }, 500);
-
-  return () => clearTimeout(fetchItemsWithDelay);
+ fetchItems();
 
 }, []);
 

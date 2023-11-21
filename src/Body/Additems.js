@@ -8,7 +8,7 @@ function Additems({ API_URL, list, setList, erro, setErro }) {
   async function handleInput() {
     if (!list.some((li) => String(li.title).toLowerCase() === String(newItem).toLowerCase())) {
       const updatedItem = {
-        id: list[list.length-1].id+ 1,
+        id: (list.length !== 0)?list[list.length-1].id+ 1:1,
         title: newItem,
         checked: true,
       };
